@@ -46,7 +46,7 @@ Uma loja de eletrônicos com atuação em todas as regiões do Brasil precisa or
 
 ## Metodologia
 
-1. **Geração do dataset** — 5.000 transações sintéticas baseadas em padrões reais do varejo de eletrônicos brasileiro (sazonalidade Q4, concentração no Sudeste, mix de produtos)
+1. **Geração do dataset** — 5.000 transações **sintéticas criadas para fins educacionais/portfólio**, baseadas em padrões reais do varejo de eletrônicos brasileiro (sazonalidade Q4, concentração no Sudeste, mix de produtos)
 2. **Limpeza e exploração** — verificação de tipos, valores nulos e distribuições com Pandas
 3. **Análise por dimensão** — produto, mês e região, calculando receita, lucro e margem
 4. **Visualização** — gráficos de barras, linhas, duplo eixo e heatmap com Matplotlib/Seaborn
@@ -131,11 +131,11 @@ Este projeto representa uma solução aplicável por qualquer varejista de eletr
 
 ## Próximos Passos
 
-- [x] Dashboard interativo com **Streamlit**
 - [ ] Modelo de **previsão de vendas** por mês (Prophet ou ARIMA)
 - [ ] Cruzar **ticket médio por região** com renda per capita do IBGE
 - [ ] Calcular **LTV (lifetime value)** por categoria de produto
-- [ ] **Deploy online** para compartilhar o dashboard via link
+- [ ] Substituir dataset sintético por **dados reais** via API pública (ex: IBGE, Receita Federal)
+- [ ] Adicionar **testes automatizados** para as funções de agregação e margem
 
 ---
 
@@ -185,6 +185,15 @@ streamlit run app.py
    `https://analise-vendas-python.streamlit.app`
 
 ---
+
+## Competências Demonstradas
+
+- Análise exploratória de dados (EDA)
+- Limpeza e transformação de dados com Pandas
+- Visualização estratégica com Matplotlib e Seaborn
+- Storytelling com dados — tradução de números em decisões
+- Desenvolvimento de dashboard interativo com Streamlit
+- Raciocínio de negócio aplicado a dados
 
 ## Stack
 
