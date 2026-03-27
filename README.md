@@ -176,13 +176,7 @@ jupyter notebook notebook.ipynb
 streamlit run app.py
 ```
 
-### Deploy online (grátis) — para enviar o link ao recrutador
-
-1. Crie uma conta em [share.streamlit.io](https://share.streamlit.io)
-2. Clique em **"New app"**
-3. Informe: `floresjacques26 / analise-vendas-python / main / app.py`
-4. Clique em **Deploy** — em segundos você terá um link público como:
-   `https://analise-vendas-python.streamlit.app`
+> O dashboard também está disponível online: **[alexandre-sales-dashboard.streamlit.app](https://alexandre-sales-dashboard.streamlit.app/)**
 
 ---
 
@@ -194,6 +188,8 @@ streamlit run app.py
 - Storytelling com dados — tradução de números em decisões
 - Desenvolvimento de dashboard interativo com Streamlit
 - Raciocínio de negócio aplicado a dados
+
+---
 
 ## Stack
 
