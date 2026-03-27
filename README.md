@@ -1,5 +1,30 @@
 # Análise de Vendas — Loja de Eletrônicos (Brasil 2024)
 
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Pandas](https://img.shields.io/badge/Pandas-2.x-green)
+![Seaborn](https://img.shields.io/badge/Seaborn-0.13-orange)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-ff4b4b)
+
+> Análise exploratória de dados de vendas de eletrônicos no Brasil (2024) com Python, Pandas e Seaborn. Projeto de portfólio com foco em **tomada de decisão baseada em dados**.
+
+---
+
+## Resultados em Números
+
+| Métrica | Valor |
+|---------|-------|
+| Receita Total | R$ 22.318.832 |
+| Lucro Total | R$ 9.015.432 |
+| Margem Média | 40,4% |
+| Produto Líder | Smartphone (receita) |
+| Maior Margem | Mouse Gamer (47%) |
+| Melhor Trimestre | Q4 — 33% do faturamento |
+| Região Líder | Sudeste — 42% das vendas |
+| Total de Transações | 5.000 |
+
+---
+
 ## Problema de Negócio
 
 Uma loja de eletrônicos com atuação nacional precisa tomar decisões baseadas em dados para o planejamento de 2025:
@@ -95,7 +120,4 @@ jupyter notebook notebook.ipynb
 
 ## Stack
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![Pandas](https://img.shields.io/badge/Pandas-2.x-green)
-![Seaborn](https://img.shields.io/badge/Seaborn-0.13-orange)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-red)
+`Python 3.13` · `Pandas` · `NumPy` · `Matplotlib` · `Seaborn` · `Jupyter Notebook` · `Streamlit`
