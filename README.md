@@ -8,6 +8,10 @@
 
 > Análise exploratória de dados de vendas de eletrônicos no Brasil (2024) com Python, Pandas e Seaborn. Projeto de portfólio com foco em **tomada de decisão baseada em dados**.
 
+## Dashboard Online
+
+**[Acesse o dashboard interativo aqui](https://alexandre-sales-dashboard.streamlit.app/)**
+
 ---
 
 ## Resultados em Números
@@ -192,5 +196,5 @@ streamlit run app.py
 
 **Alexandre Flores Jacques**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/floresjacques26)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/alexandre-jacques-237857256/)
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/floresjacques26)
