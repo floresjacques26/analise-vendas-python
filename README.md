@@ -167,10 +167,18 @@ jupyter notebook notebook.ipynb
 
 > Execute as células em ordem. A primeira célula gera `data/vendas.csv` automaticamente.
 
-### Dashboard Streamlit
+### Dashboard Streamlit (local)
 ```bash
 streamlit run app.py
 ```
+
+### Deploy online (grátis) — para enviar o link ao recrutador
+
+1. Crie uma conta em [share.streamlit.io](https://share.streamlit.io)
+2. Clique em **"New app"**
+3. Informe: `floresjacques26 / analise-vendas-python / main / app.py`
+4. Clique em **Deploy** — em segundos você terá um link público como:
+   `https://analise-vendas-python.streamlit.app`
 
 ---
 
