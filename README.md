@@ -79,7 +79,7 @@ analise-vendas-python/
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/analise-vendas-python.git
+git clone https://github.com/floresjacques26/analise-vendas-python.git
 cd analise-vendas-python
 
 # 2. Instale as dependências
