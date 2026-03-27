@@ -1,7 +1,7 @@
 # Dataset gerado automaticamente pelo notebook
 data/vendas.csv
 
-# Gráficos gerados
+# Gráficos dentro de data/ (os de portfólio ficam em assets/)
 data/*.png
 
 # Python

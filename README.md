@@ -54,6 +54,22 @@ Dataset sintético de **5.000 transações** simulando padrões reais do varejo 
 
 ---
 
+## Visualizações
+
+### Receita e Volume por Produto
+![Produtos](assets/grafico_produtos.png)
+
+### Sazonalidade Mensal
+![Mensal](assets/grafico_mensal.png)
+
+### Performance por Região
+![Regioes](assets/grafico_regioes.png)
+
+### Margem de Lucro por Produto
+![Margem](assets/grafico_margem.png)
+
+---
+
 ## Perguntas Respondidas
 
 1. **Quais produtos vendem mais?** (receita e volume)
