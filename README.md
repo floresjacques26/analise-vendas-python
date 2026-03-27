@@ -98,13 +98,40 @@ Uma loja de eletrônicos com atuação em todas as regiões do Brasil precisa or
 
 ---
 
+## Aplicação no Mundo Real
+
+Este projeto representa uma solução aplicável por qualquer varejista de eletrônicos para:
+
+| Área | Como este projeto ajuda |
+|------|------------------------|
+| **Estoque** | Saber quais produtos acumular e em qual trimestre |
+| **Marketing** | Direcionar verba para regiões e produtos com maior retorno |
+| **Financeiro** | Identificar onde a margem está sendo destruída |
+| **Comercial** | Criar promoções no período certo (Q4) para maximizar receita |
+| **Estratégia** | Priorizar expansão nas regiões com crescimento e boa margem |
+
+---
+
+## Etapas do Projeto
+
+```
+1. Coleta de dados          → dataset de 5.000 transações com padrões reais do varejo BR
+2. Limpeza e tratamento     → tipagem, nulos, criação de campos derivados (lucro, margem)
+3. Análise exploratória     → distribuições, correlações e agregações por dimensão
+4. Visualização de dados    → 4 gráficos estratégicos com Matplotlib e Seaborn
+5. Geração de insights      → tradução dos números em decisões de negócio
+6. Dashboard interativo     → app Streamlit com filtros por região, categoria e período
+```
+
+---
+
 ## Próximos Passos
 
-- [ ] Criar dashboard interativo com **Streamlit** para exploração dinâmica dos dados
-- [ ] Adicionar modelo de **previsão de vendas** por mês (Prophet ou ARIMA)
-- [ ] Analisar **ticket médio por região** e cruzar com renda per capita do IBGE
+- [x] Dashboard interativo com **Streamlit**
+- [ ] Modelo de **previsão de vendas** por mês (Prophet ou ARIMA)
+- [ ] Cruzar **ticket médio por região** com renda per capita do IBGE
 - [ ] Calcular **LTV (lifetime value)** por categoria de produto
-- [ ] Transformar o projeto em uma **aplicação web** com filtros e exportação de relatório
+- [ ] **Deploy online** para compartilhar o dashboard via link
 
 ---
 
@@ -150,3 +177,12 @@ streamlit run app.py
 ## Stack
 
 `Python 3.13` · `Pandas` · `NumPy` · `Matplotlib` · `Seaborn` · `Jupyter Notebook` · `Streamlit`
+
+---
+
+## Autor
+
+**Alexandre Flores Jacques**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/floresjacques26)
+[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/floresjacques26)
